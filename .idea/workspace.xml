@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2778ec5-5c5a-46a5-a722-66b740aa796b" name="Changes" comment="First app with Hibernate 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.46091953"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -49,6 +54,26 @@
     ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="HibernateApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673357334493</updated>
-      <workItem from="1673357335921" duration="9028000" />
+      <workItem from="1673357335921" duration="12242000" />
     </task>
     <task id="LOCAL-00001" summary="First app with Hibernate">
       <created>1673367353952</created>
@@ -66,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673367353952</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First app with Hibernate 2">
+      <created>1673369405552</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673369405552</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First app with Hibernate" />
-    <option name="LAST_COMMIT_MESSAGE" value="First app with Hibernate" />
+    <MESSAGE value="First app with Hibernate 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="First app with Hibernate 2" />
   </component>
 </project>
