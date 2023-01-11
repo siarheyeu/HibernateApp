@@ -22,11 +22,8 @@ public class App {
         try {
             session.beginTransaction();
 
-            List<Person> people = session.createQuery("FROM Person").getResultList();
-            for (Person person:
-                 people) {
-                System.out.println(person);
-            }
+            session.createQuery("delete from Person where age < 30").executeUpdate();
+
 
             session.getTransaction().commit();
 
