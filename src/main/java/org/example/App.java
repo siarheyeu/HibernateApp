@@ -6,6 +6,7 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.SessionFactory;
 
 import javax.security.auth.login.AppConfigurationEntry;
+import java.util.List;
 
 
 /**
@@ -21,10 +22,15 @@ public class App {
         try {
             session.beginTransaction();
 
-            Person person = session.get(Person.class, 2);
-            session.delete (person);
+            List<Person> people = session.createQuery("FROM Person").getResultList();
+            for (Person person:
+                 people) {
+                System.out.println(person);
+            }
 
             session.getTransaction().commit();
+
+
         } finally {
             sessionFactory.close();
         }
