@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2778ec5-5c5a-46a5-a722-66b740aa796b" name="Changes" comment="First app with Hibernate 2">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
+    <list default="true" id="a2778ec5-5c5a-46a5-a722-66b740aa796b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673357334493</updated>
       <workItem from="1673357335921" duration="12269000" />
-      <workItem from="1673446015752" duration="3355000" />
+      <workItem from="1673446015752" duration="4577000" />
     </task>
     <task id="LOCAL-00001" summary="First app with Hibernate">
       <created>1673367353952</created>
@@ -105,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673377229942</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Saving entities in the database">
+      <created>1673454967210</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673454967210</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +120,7 @@
     <MESSAGE value="First app with Hibernate" />
     <MESSAGE value="First app with Hibernate 2" />
     <MESSAGE value="First app with Hibernate 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="First app with Hibernate 3" />
+    <MESSAGE value="Saving entities in the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Saving entities in the database" />
   </component>
 </project>
