@@ -87,7 +87,7 @@
       <updated>1673357334493</updated>
       <workItem from="1673357335921" duration="12269000" />
       <workItem from="1673446015752" duration="10876000" />
-      <workItem from="1673515731676" duration="11333000" />
+      <workItem from="1673515731676" duration="11638000" />
     </task>
     <task id="LOCAL-00001" summary="First app with Hibernate">
       <created>1673367353952</created>
@@ -187,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673528794760</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Relation one-to-many in Hibernate  - changing the owner of the item">
+      <created>1673529154544</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673529154544</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +227,7 @@
     <MESSAGE value="Relation one-to-many in Hibernate 5" />
     <MESSAGE value="Relation one-to-many in Hibernate  - delete items from table" />
     <MESSAGE value="Relation one-to-many in Hibernate  - delete person from table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Relation one-to-many in Hibernate  - delete person from table" />
+    <MESSAGE value="Relation one-to-many in Hibernate  - changing the owner of the item" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relation one-to-many in Hibernate  - changing the owner of the item" />
   </component>
 </project>

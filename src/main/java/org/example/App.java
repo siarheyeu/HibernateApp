@@ -31,7 +31,10 @@ public class App {
 
           Item item = session.get(Item.class, 1);
 
+          item.getOwner().getItems().remove(item);
+
           item.setOwner(person);
+
           person.getItems().add(item);
 
             session.getTransaction().commit();
