@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2778ec5-5c5a-46a5-a722-66b740aa796b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,7 @@
       <updated>1673357334493</updated>
       <workItem from="1673357335921" duration="12269000" />
       <workItem from="1673446015752" duration="10876000" />
-      <workItem from="1673515731676" duration="10268000" />
+      <workItem from="1673515731676" duration="10649000" />
     </task>
     <task id="LOCAL-00001" summary="First app with Hibernate">
       <created>1673367353952</created>
@@ -167,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673526007037</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Relation one-to-many in Hibernate 4">
+      <created>1673527882425</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673527882425</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +202,7 @@
     <MESSAGE value="Relation one-to-many in Hibernate" />
     <MESSAGE value="Relation one-to-many in Hibernate 2" />
     <MESSAGE value="Relation one-to-many in Hibernate 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Relation one-to-many in Hibernate 3" />
+    <MESSAGE value="Relation one-to-many in Hibernate 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relation one-to-many in Hibernate 4" />
   </component>
 </project>

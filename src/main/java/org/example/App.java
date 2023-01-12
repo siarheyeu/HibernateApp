@@ -27,16 +27,15 @@ public class App {
         try {
             session.beginTransaction();
 
-           Person person = new Person ("Test person", 30);
+           Person person = session.get(Person.class, 3);
+           List<Item> items = person.getItems();
 
-           Item newItem = new Item("Item from Hibernate 2", person);
+            for (Item item:
+                 items) {
+                session.remove(item);
+            }
 
-           person.setItems(new ArrayList<>(Collections.singletonList(newItem)));
-
-           session.save(person);
-
-           session.save(newItem);
-
+            person.getItems().clear();
 
             session.getTransaction().commit();
 
