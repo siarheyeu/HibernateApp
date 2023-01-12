@@ -7,6 +7,8 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.SessionFactory;
 
 import javax.security.auth.login.AppConfigurationEntry;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 
@@ -25,13 +27,16 @@ public class App {
         try {
             session.beginTransaction();
 
-           Person person = session.get(Person.class, 2);
+           Person person = new Person ("Test person", 30);
 
-           Item newItem = new Item("Item from Hibernate", person);
+           Item newItem = new Item("Item from Hibernate 2", person);
 
-           person.getItems().add(newItem);
+           person.setItems(new ArrayList<>(Collections.singletonList(newItem)));
+
+           session.save(person);
 
            session.save(newItem);
+
 
             session.getTransaction().commit();
 
