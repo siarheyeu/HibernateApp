@@ -87,7 +87,7 @@
       <updated>1673357334493</updated>
       <workItem from="1673357335921" duration="12269000" />
       <workItem from="1673446015752" duration="10876000" />
-      <workItem from="1673515731676" duration="10649000" />
+      <workItem from="1673515731676" duration="11019000" />
     </task>
     <task id="LOCAL-00001" summary="First app with Hibernate">
       <created>1673367353952</created>
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673527882425</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Relation one-to-many in Hibernate  - delete items from table">
+      <created>1673528516392</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673528516392</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +210,8 @@
     <MESSAGE value="Relation one-to-many in Hibernate 2" />
     <MESSAGE value="Relation one-to-many in Hibernate 3" />
     <MESSAGE value="Relation one-to-many in Hibernate 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Relation one-to-many in Hibernate 4" />
+    <MESSAGE value="Relation one-to-many in Hibernate 5" />
+    <MESSAGE value="Relation one-to-many in Hibernate  - delete items from table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relation one-to-many in Hibernate  - delete items from table" />
   </component>
 </project>
