@@ -25,10 +25,11 @@ public class App {
         try {
             session.beginTransaction();
 
-            Person person = session.get(Person.class, 3);
-            System.out.println(person);
+           Item item = session.get(Item.class, 5);
+            System.out.println(item);
 
-            List<Item> items = person.getItems();
+            Person person = item.getOwner();
+            System.out.println(person);
 
             session.getTransaction().commit();
 
