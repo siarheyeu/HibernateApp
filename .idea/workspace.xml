@@ -7,6 +7,7 @@
     <list default="true" id="a2778ec5-5c5a-46a5-a722-66b740aa796b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,22 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.46091953",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.46091953&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.model" />
@@ -89,7 +90,8 @@
       <updated>1673357334493</updated>
       <workItem from="1673357335921" duration="12269000" />
       <workItem from="1673446015752" duration="10876000" />
-      <workItem from="1673515731676" duration="14261000" />
+      <workItem from="1673515731676" duration="14451000" />
+      <workItem from="1673601760134" duration="2194000" />
     </task>
     <task id="LOCAL-00001" summary="First app with Hibernate">
       <created>1673367353952</created>
@@ -203,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673529326682</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Сascading in Hibernate">
+      <created>1673553664377</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1673553664377</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +247,7 @@
     <MESSAGE value="Relation one-to-many in Hibernate  - delete person from table" />
     <MESSAGE value="Relation one-to-many in Hibernate  - changing the owner of the item" />
     <MESSAGE value="Relation one-to-many in Hibernate  - changing the owner of the item - 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Relation one-to-many in Hibernate  - changing the owner of the item - 2" />
+    <MESSAGE value="Сascading in Hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сascading in Hibernate" />
   </component>
 </project>
