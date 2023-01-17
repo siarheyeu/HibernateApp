@@ -94,7 +94,7 @@
       <workItem from="1673601760134" duration="2488000" />
       <workItem from="1673620955385" duration="3839000" />
       <workItem from="1673693562167" duration="1015000" />
-      <workItem from="1673957741314" duration="2669000" />
+      <workItem from="1673957741314" duration="3756000" />
     </task>
     <task id="LOCAL-00001" summary="First app with Hibernate">
       <created>1673367353952</created>
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673964417965</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Eager loading">
+      <created>1673968967933</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1673968967933</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +274,7 @@
     <MESSAGE value="Сascading in Hibernate" />
     <MESSAGE value="Сascading in Hibernate 2" />
     <MESSAGE value="Lazy loading" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lazy loading" />
+    <MESSAGE value="Eager loading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eager loading" />
   </component>
 </project>

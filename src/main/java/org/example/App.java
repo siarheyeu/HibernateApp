@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.model.Item;
 import org.example.model.Person;
+import org.hibernate.Hibernate;
 import org.hibernate.Session;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.SessionFactory;
@@ -30,11 +31,14 @@ public class App {
 
             Person person = session.get(Person.class, 1);
             System.out.println("Получили человека из таблицы");
-
+            System.out.println(person);
 
             System.out.println(person.getItems());
+            Hibernate.initialize(person.getItems()); //подгружаем связанные ленивые сущности
 
             session.getTransaction().commit();
+
+            System.out.println("Вне сессии");
 
             System.out.println(person.getItems());
 
