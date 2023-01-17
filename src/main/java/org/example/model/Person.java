@@ -25,7 +25,6 @@ public class Person {
     private int age;
 
     @OneToMany(mappedBy = "owner")
-    @Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE)
     private List<Item> items;
 
     public Person(){

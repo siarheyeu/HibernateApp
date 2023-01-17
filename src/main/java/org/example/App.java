@@ -22,21 +22,16 @@ public class App {
                 addAnnotatedClass(Item.class);
 
         SessionFactory sessionFactory = configuration.buildSessionFactory();
-        Session session = sessionFactory.getCurrentSession();
+
 
         try {
+            Session session = sessionFactory.getCurrentSession();
             session.beginTransaction();
 
-           Person person = new Person("Test cascading", 30);
-
-             person.addItem(new Item("Item1"));
-            person.addItem(new Item("Item2"));
-            person.addItem(new Item("Item3"));
+            Person person = session.get(Person.class, 1);
+            System.out.println("Получили человека");
 
 
-
-
-            session.save(person);
 
             session.getTransaction().commit();
 
