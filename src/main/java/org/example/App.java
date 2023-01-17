@@ -33,13 +33,28 @@ public class App {
             System.out.println("Получили человека из таблицы");
             System.out.println(person);
 
-            System.out.println(person.getItems());
-            Hibernate.initialize(person.getItems()); //подгружаем связанные ленивые сущности
+
 
             session.getTransaction().commit();
 
-            System.out.println("Вне сессии");
+            System.out.println("Cессия закончилась(session.close)");
 
+            //Открываем сессию и транзакцию ещё раз (в любом другом месте в коде)
+            session = sessionFactory.getCurrentSession();
+            session.beginTransaction();
+
+
+            System.out.println("Внутри второй транзакции");
+
+            person = (Person)session.merge(person);
+
+            Hibernate.initialize(person.getItems());
+
+            session.getTransaction().commit();
+
+            System.out.println("Вне второй сессии");
+
+            // это работает, так как связанные товары были загружены
             System.out.println(person.getItems());
 
         } finally {
