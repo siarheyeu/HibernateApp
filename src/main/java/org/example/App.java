@@ -29,12 +29,14 @@ public class App {
             session.beginTransaction();
 
             Person person = session.get(Person.class, 1);
-            System.out.println("Получили человека");
+            System.out.println("Получили человека из таблицы");
 
 
+            System.out.println(person.getItems());
 
             session.getTransaction().commit();
 
+            System.out.println(person.getItems());
 
         } finally {
             sessionFactory.close();

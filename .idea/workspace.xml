@@ -7,7 +7,6 @@
     <list default="true" id="a2778ec5-5c5a-46a5-a722-66b740aa796b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/MainToOne.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +94,7 @@
       <workItem from="1673601760134" duration="2488000" />
       <workItem from="1673620955385" duration="3839000" />
       <workItem from="1673693562167" duration="1015000" />
-      <workItem from="1673957741314" duration="1567000" />
+      <workItem from="1673957741314" duration="2669000" />
     </task>
     <task id="LOCAL-00001" summary="First app with Hibernate">
       <created>1673367353952</created>
@@ -223,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673604231823</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Lazy loading">
+      <created>1673964417965</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673964417965</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +266,7 @@
     <MESSAGE value="Relation one-to-many in Hibernate  - changing the owner of the item - 2" />
     <MESSAGE value="Сascading in Hibernate" />
     <MESSAGE value="Сascading in Hibernate 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сascading in Hibernate 2" />
+    <MESSAGE value="Lazy loading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lazy loading" />
   </component>
 </project>
